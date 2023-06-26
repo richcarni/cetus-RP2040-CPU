@@ -1,0 +1,14 @@
+### Footprint positions - created on Fri Jun 23 19:04:50 2023 ###
+### Printed by KiCad version (7.0.0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                               PosX       PosY       Rot  Side
+C1        2.2u                 C_0402_1005Metric                  61.2644    -3.6196  -90.0000  top
+J1        Conn_02x05_Odd_Even  PinHeader_2x05_P2.54mm_Vertical    54.9400    18.7200   90.0000  top
+J2        Conn_01x02           PinHeader_1x02_P2.54mm_Vertical    57.4800   -21.9200  -90.0000  top
+J3        Conn_01x02           PinHeader_1x02_P2.54mm_Vertical    66.3700   -21.9200  -90.0000  top
+JP1       Conn_02x18_Odd_Even  PinHeader_2x18_P2.54mm_Vertical    44.7800    21.2600    0.0000  top
+JP2       Conn_02x18_Odd_Even  PinHeader_2x18_P2.54mm_Vertical    72.7200    21.2600    0.0000  top
+R6        200                  C_0402_1005Metric                  62.2296    -3.6196   90.0000  top
+U1        LM4040DBZ-3          SOT-23                             65.0975    -4.0388    0.0000  top
+## End

@@ -1,4 +1,4 @@
-21456352055232305
+21469855394133384
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -78518,6 +78518,41 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Panelization.pretty-master
+mouse-bite-1mm-slot
+
+
+0
+0
+0
+Panelization.pretty-master
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
+Panelization.pretty-master
+mouse-bite-2mm-slot
+
+
+0
+0
+0
+Panelization.pretty-master
+mouse-bite-3mm-slot
+
+
+0
+0
+0
+Panelization.pretty-master
+mouse-bite-5mm-slot
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -80486,6 +80521,20 @@ SMD SMT crystal
 2
 2
 RP2040_minimal
+PinHeader_2x18_P2.54mm_Vertical_backside
+Through hole straight pin header, 2x18, 2.54mm pitch, double rows
+Through hole pin header THT 2x18 2.54mm double row
+0
+36
+36
+RP2040_minimal
+PinHeader_2x18_P2.54mm_Vertical_backside_pads15+17_removed
+Through hole straight pin header, 2x18, 2.54mm pitch, double rows
+Through hole pin header THT 2x18 2.54mm double row
+0
+34
+34
+RP2040_minimal
 RP2040-QFN-56
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
@@ -80499,6 +80548,13 @@ USB USB_B USB_micro USB_OTG
 0
 17
 6
+RP2040_minimal
+mouse-bite-1mm-slot_singlesided
+
+
+0
+0
+0
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf

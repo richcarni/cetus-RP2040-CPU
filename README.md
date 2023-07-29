@@ -1,1 +1,1 @@
-![3D board view](https://bitbucket.org/richcarni/rp2040-cpu/raw/baf972e6ce8816ea103e41e14055c632bdbecc84/images/rp2040_cetus_3dview.jpg)
+![3D board view](images/rp2040_cetus_3dview.jpg)

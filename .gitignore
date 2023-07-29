@@ -1,8 +1,8 @@
 # Specify filepatterns you want git to ignore.
-
 .DS_Store
 
+# kicad specific
 *.sch-bak
-
-# kicad 6 backups
 *-backups
+*.kicad_prl
+fp-info-cache

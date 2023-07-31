@@ -1563,7 +1563,6 @@
     )
   )
 
-
   (junction (at 78.74 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 008da5b9-6f95-4113-b7d0-d93ac62efd33)
   )
@@ -4443,7 +4442,7 @@
     (property "Value" "X322516MLB4SI" (at 85.09 195.58 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "X322516MLB4SI:OSC_X322516MLB4SI" (at 77.47 215.9 0)
+    (property "Footprint" "OSC_X322516MLB4SI" (at 77.47 215.9 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 77.47 215.9 0)

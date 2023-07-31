@@ -616,77 +616,6 @@
         )
       )
     )
-    (symbol "Device:Crystal" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Y" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Crystal" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "quartz ceramic resonator oscillator" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Two pin crystal" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Crystal*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Crystal_0_1"
-        (rectangle (start -1.143 2.54) (end 1.143 -2.54)
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy -1.905 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 -1.27)
-            (xy -1.905 1.27)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.905 -1.27)
-            (xy 1.905 1.27)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 0)
-            (xy 1.905 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Crystal_1_1"
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -1179,6 +1108,315 @@
         )
       )
     )
+    (symbol "custom:Conn_02x18_Odd_Even_exc_pins15_17" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "JP2" (at 1.27 25.8318 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_02x18_Odd_Even" (at 1.27 23.5204 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "RP2040_minimal:PinHeader_2x18_P2.54mm_Vertical_backside_pads15+17_removed" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_02x18_Odd_Even_exc_pins15_17_1_1"
+        (rectangle (start -1.27 -22.733) (end 0 -22.987)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -20.193) (end 0 -20.447)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -17.653) (end 0 -17.907)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -15.113) (end 0 -15.367)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -12.573) (end 0 -12.827)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -10.033) (end 0 -10.287)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -7.493) (end 0 -7.747)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -4.953) (end 0 -5.207)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 2.667) (end 0 2.413)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 5.207) (end 0 4.953)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 7.747) (end 0 7.493)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 10.287) (end 0 10.033)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 12.827) (end 0 12.573)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 15.367) (end 0 15.113)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 17.907) (end 0 17.653)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 20.447) (end 0 20.193)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 21.59) (end 3.81 -24.13)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (rectangle (start 3.81 -22.733) (end 2.54 -22.987)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 -20.193) (end 2.54 -20.447)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 -17.653) (end 2.54 -17.907)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 -15.113) (end 2.54 -15.367)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 -12.573) (end 2.54 -12.827)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 -10.033) (end 2.54 -10.287)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 -7.493) (end 2.54 -7.747)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 -4.953) (end 2.54 -5.207)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 2.667) (end 2.54 2.413)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 5.207) (end 2.54 4.953)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 7.747) (end 2.54 7.493)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 10.287) (end 2.54 10.033)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 12.827) (end 2.54 12.573)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 15.367) (end 2.54 15.113)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 17.907) (end 2.54 17.653)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 20.447) (end 2.54 20.193)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 20.32 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 10.16 180) (length 3.81)
+          (name "Pin_10" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 7.62 0) (length 3.81)
+          (name "Pin_11" (effects (font (size 1.27 1.27))))
+          (number "11" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 7.62 180) (length 3.81)
+          (name "Pin_12" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 5.08 0) (length 3.81)
+          (name "Pin_13" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 5.08 180) (length 3.81)
+          (name "Pin_14" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 2.54 180) (length 3.81)
+          (name "Pin_16" (effects (font (size 1.27 1.27))))
+          (number "16" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 0 180) (length 3.81)
+          (name "Pin_18" (effects (font (size 1.27 1.27))))
+          (number "18" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_19" (effects (font (size 1.27 1.27))))
+          (number "19" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 20.32 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -2.54 180) (length 3.81)
+          (name "Pin_20" (effects (font (size 1.27 1.27))))
+          (number "20" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -5.08 0) (length 3.81)
+          (name "Pin_21" (effects (font (size 1.27 1.27))))
+          (number "21" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -5.08 180) (length 3.81)
+          (name "Pin_22" (effects (font (size 1.27 1.27))))
+          (number "22" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -7.62 0) (length 3.81)
+          (name "Pin_23" (effects (font (size 1.27 1.27))))
+          (number "23" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -7.62 180) (length 3.81)
+          (name "Pin_24" (effects (font (size 1.27 1.27))))
+          (number "24" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -10.16 0) (length 3.81)
+          (name "Pin_25" (effects (font (size 1.27 1.27))))
+          (number "25" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -10.16 180) (length 3.81)
+          (name "Pin_26" (effects (font (size 1.27 1.27))))
+          (number "26" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -12.7 0) (length 3.81)
+          (name "Pin_27" (effects (font (size 1.27 1.27))))
+          (number "27" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -12.7 180) (length 3.81)
+          (name "Pin_28" (effects (font (size 1.27 1.27))))
+          (number "28" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -15.24 0) (length 3.81)
+          (name "Pin_29" (effects (font (size 1.27 1.27))))
+          (number "29" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 17.78 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -15.24 180) (length 3.81)
+          (name "Pin_30" (effects (font (size 1.27 1.27))))
+          (number "30" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -17.78 0) (length 3.81)
+          (name "Pin_31" (effects (font (size 1.27 1.27))))
+          (number "31" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -17.78 180) (length 3.81)
+          (name "Pin_32" (effects (font (size 1.27 1.27))))
+          (number "32" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -20.32 0) (length 3.81)
+          (name "Pin_33" (effects (font (size 1.27 1.27))))
+          (number "33" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -20.32 180) (length 3.81)
+          (name "Pin_34" (effects (font (size 1.27 1.27))))
+          (number "34" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -22.86 0) (length 3.81)
+          (name "Pin_35" (effects (font (size 1.27 1.27))))
+          (number "35" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -22.86 180) (length 3.81)
+          (name "Pin_36" (effects (font (size 1.27 1.27))))
+          (number "36" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 17.78 180) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 15.24 0) (length 3.81)
+          (name "Pin_5" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 15.24 180) (length 3.81)
+          (name "Pin_6" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 12.7 0) (length 3.81)
+          (name "Pin_7" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 12.7 180) (length 3.81)
+          (name "Pin_8" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 10.16 0) (length 3.81)
+          (name "Pin_9" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+1V1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1325,6 +1563,7 @@
     )
   )
 
+
   (junction (at 78.74 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 008da5b9-6f95-4113-b7d0-d93ac62efd33)
   )
@@ -1409,9 +1648,6 @@
   (junction (at 85.09 101.6) (diameter 0) (color 0 0 0 0)
     (uuid cbcc6356-6a35-4628-90c5-dcb3029c6624)
   )
-  (junction (at 62.865 228.6) (diameter 0) (color 0 0 0 0)
-    (uuid ccedf78c-1ac4-4705-a356-9baf05abe295)
-  )
   (junction (at 257.81 60.96) (diameter 0) (color 0 0 0 0)
     (uuid d3d57924-54a6-421d-a3a0-a044fc909e88)
   )
@@ -1436,9 +1672,6 @@
   (junction (at 327.66 187.325) (diameter 0) (color 0 0 0 0)
     (uuid ec7c6ade-9139-4510-b57a-5d864d338afe)
   )
-  (junction (at 62.865 204.47) (diameter 0) (color 0 0 0 0)
-    (uuid f3ea8870-e923-4f13-8c61-5b904df9d832)
-  )
   (junction (at 177.8 76.2) (diameter 0) (color 0 0 0 0)
     (uuid f8bd6470-fafd-47f2-8ed5-9449988187ce)
   )
@@ -1449,10 +1682,13 @@
   (no_connect (at 313.69 129.54) (uuid 00a3e0d2-4d35-4743-9837-4506a449e92d))
   (no_connect (at 370.84 147.32) (uuid 01ddd5b1-44da-4a60-b5b6-45d6cabe531d))
   (no_connect (at 326.39 157.48) (uuid 0eee5b55-829c-4ba8-8d00-1ae14b86a622))
+  (no_connect (at 313.69 154.94) (uuid 125a8f0c-838d-4c8b-941b-f77b9a257a07))
   (no_connect (at 326.39 142.24) (uuid 275bce0c-00cb-4dc6-8fa3-8642c19e55ca))
   (no_connect (at 326.39 147.32) (uuid 286976dd-be64-4f08-9048-2b2109229a3c))
   (no_connect (at 370.84 144.78) (uuid 2bd681eb-7486-4a0f-9838-fddb6ebfa0e8))
   (no_connect (at 370.84 121.92) (uuid 2d76e230-df7c-4333-93ac-1246933123ff))
+  (no_connect (at 313.69 157.48) (uuid 36db321c-8cc6-497d-9042-e98c19eb70cb))
+  (no_connect (at 313.69 162.56) (uuid 4ae748eb-308e-40b0-8756-b0b18973fd29))
   (no_connect (at 370.84 142.24) (uuid 53dc2389-c412-4669-8e58-7433e3d0468e))
   (no_connect (at 370.84 129.54) (uuid 5ad6060d-1ea3-498f-be36-14473d3876d4))
   (no_connect (at 370.84 162.56) (uuid 5d0744fe-4a56-48ee-8014-fd1b4269ad2d))
@@ -1469,6 +1705,7 @@
   (no_connect (at 383.54 129.54) (uuid 864753ee-f8d3-4192-9d04-80cd677480b4))
   (no_connect (at 383.54 121.92) (uuid 864753ee-f8d3-4192-9d04-80cd677480b5))
   (no_connect (at 383.54 124.46) (uuid 864753ee-f8d3-4192-9d04-80cd677480b6))
+  (no_connect (at 313.69 160.02) (uuid 990c4863-38d1-41b1-a10c-bac71596a742))
   (no_connect (at 326.39 160.02) (uuid a051f449-e08f-4a12-8c77-50c7e7911458))
   (no_connect (at 326.39 149.86) (uuid ab8fdc70-beb8-4fe6-8eb3-221998ea3e49))
   (no_connect (at 326.39 162.56) (uuid bc6e25ee-1db6-4061-8f8e-38773c763221))
@@ -1656,7 +1893,7 @@
     (stroke (width 0) (type default))
     (uuid 2e9a9422-2685-4c25-bafc-be587bb5c79d)
   )
-  (wire (pts (xy 62.865 228.6) (xy 77.47 228.6))
+  (wire (pts (xy 54.61 228.6) (xy 77.47 228.6))
     (stroke (width 0) (type default))
     (uuid 2fabde5d-f022-4c71-8762-b6d2734e432f)
   )
@@ -1823,10 +2060,6 @@
   (wire (pts (xy 223.52 85.09) (xy 223.52 86.36))
     (stroke (width 0) (type default))
     (uuid 7a2f50f6-0c99-4e8d-9c2a-8f2f961d2e6d)
-  )
-  (wire (pts (xy 62.865 219.71) (xy 62.865 228.6))
-    (stroke (width 0) (type default))
-    (uuid 7a4ce4b3-518a-4819-b8b2-5127b3347c64)
   )
   (wire (pts (xy 157.48 69.85) (xy 157.48 71.12))
     (stroke (width 0) (type default))
@@ -2008,13 +2241,9 @@
     (stroke (width 0) (type default))
     (uuid a5e521b9-814e-4853-a5ac-f158785c6269)
   )
-  (wire (pts (xy 54.61 204.47) (xy 62.865 204.47))
+  (wire (pts (xy 54.61 204.47) (xy 77.47 204.47))
     (stroke (width 0) (type default))
     (uuid a6b7df29-bcf8-46a9-b623-7eaac47f5110)
-  )
-  (wire (pts (xy 62.865 204.47) (xy 62.865 212.09))
-    (stroke (width 0) (type default))
-    (uuid a9b3f6e4-7a6d-4ae8-ad28-3d8458e0ca1a)
   )
   (wire (pts (xy 303.53 220.98) (xy 316.23 220.98))
     (stroke (width 0) (type default))
@@ -2164,10 +2393,6 @@
     (stroke (width 0) (type default))
     (uuid cc48dd41-7768-48d3-b096-2c4cc2126c9d)
   )
-  (wire (pts (xy 62.865 204.47) (xy 77.47 204.47))
-    (stroke (width 0) (type default))
-    (uuid cd7f3132-9197-4464-855f-1b744dfdc614)
-  )
   (wire (pts (xy 229.87 116.84) (xy 245.11 116.84))
     (stroke (width 0) (type default))
     (uuid cff34251-839c-4da9-a0ad-85d0fc4e32af)
@@ -2199,10 +2424,6 @@
   (wire (pts (xy 52.07 125.73) (xy 63.5 125.73))
     (stroke (width 0) (type default))
     (uuid d7e4abd8-69f5-4706-b12e-898194e5bf56)
-  )
-  (wire (pts (xy 54.61 228.6) (xy 62.865 228.6))
-    (stroke (width 0) (type default))
-    (uuid d9c6d5d2-0b49-49ba-a970-cd2c32f74c54)
   )
   (wire (pts (xy 339.09 137.16) (xy 326.39 137.16))
     (stroke (width 0) (type default))
@@ -2872,7 +3093,7 @@
     (pin "8" (uuid e8eba793-f52b-452d-92ff-9b45a4d56266))
     (pin "9" (uuid 0d6f2783-4f3d-4518-aa84-6973545398bb))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "U3") (unit 1)
         )
@@ -2898,7 +3119,7 @@
     (pin "1" (uuid 2e7d10b8-57a9-4b25-8fa7-478188d14271))
     (pin "2" (uuid 11aa1dbf-403d-45a8-b13b-53861ccefc88))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C2") (unit 1)
         )
@@ -2924,7 +3145,7 @@
     (pin "1" (uuid 16534c7b-2b1c-4bbb-8017-d277a73da324))
     (pin "2" (uuid fac7da27-6541-43a7-89eb-88b762486d4d))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C3") (unit 1)
         )
@@ -2949,7 +3170,7 @@
     )
     (pin "1" (uuid 2af83ba9-4b18-45bc-9b08-ce554f240712))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR06") (unit 1)
         )
@@ -2966,7 +3187,7 @@
     (property "Value" "W25Q128JVS" (at 86.36 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (at 78.74 128.27 0)
+    (property "Footprint" "custom:SOIC-8_5.23x5.23mm_P1.27mm+model" (at 78.74 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" (at 78.74 128.27 0)
@@ -2981,7 +3202,7 @@
     (pin "7" (uuid 97285f2e-d494-4aa3-9e23-de2b66b08e16))
     (pin "8" (uuid 6975cdfe-1850-4420-acf1-0ced5fff836d))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "U2") (unit 1)
         )
@@ -3006,7 +3227,7 @@
     )
     (pin "1" (uuid d6d827e1-8037-4a64-9433-b930cfff7250))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR07") (unit 1)
         )
@@ -3031,7 +3252,7 @@
     )
     (pin "1" (uuid ede7ead5-f78f-4910-a1d2-feb89394d785))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR08") (unit 1)
         )
@@ -3057,7 +3278,7 @@
     (pin "1" (uuid ca9cd032-288b-4cfe-9cf3-f5f8591facaf))
     (pin "2" (uuid b23d6491-e320-4cab-ad92-24ea27af5b34))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "R2") (unit 1)
         )
@@ -3083,7 +3304,7 @@
     (pin "1" (uuid f7cc7c58-ca8f-47d1-87af-31209c5d820c))
     (pin "2" (uuid 1f13d3d0-36d9-4b36-a109-fe6b22fddebe))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "R1") (unit 1)
         )
@@ -3109,7 +3330,7 @@
     (pin "1" (uuid d41ebf9e-bf40-42d7-939e-e39262e6f2fc))
     (pin "2" (uuid fd2deda9-0706-4635-833f-458515e20d4e))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C5") (unit 1)
         )
@@ -3134,7 +3355,7 @@
     )
     (pin "1" (uuid b513fe77-97ea-42aa-9b7a-cf1370b596fb))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR011") (unit 1)
         )
@@ -3159,7 +3380,7 @@
     )
     (pin "1" (uuid 73ac2a0d-4556-4d2d-9c7c-5ef81901d99a))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR016") (unit 1)
         )
@@ -3184,7 +3405,7 @@
     )
     (pin "1" (uuid f61ca984-85f8-4bd5-ac2e-f6dd1857b848))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR015") (unit 1)
         )
@@ -3210,7 +3431,7 @@
     (pin "1" (uuid 6cbc6b9c-37f8-4d4a-9780-7abd8c87c83f))
     (pin "2" (uuid 60639e45-32e2-4ddb-93a4-b24cd5fa47c7))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "R3") (unit 1)
         )
@@ -3236,7 +3457,7 @@
     (pin "1" (uuid b6eb28a9-73fb-4d29-ad3c-d8ada6975333))
     (pin "2" (uuid aa76ead1-ce85-4b09-b6f6-344fb11e057c))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "R4") (unit 1)
         )
@@ -3261,7 +3482,7 @@
     )
     (pin "1" (uuid b38b087b-8982-49de-bea5-f95da366c3cf))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR017") (unit 1)
         )
@@ -3286,7 +3507,7 @@
     )
     (pin "1" (uuid c1d59fa4-5975-401f-aa26-2a1f6168842a))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR014") (unit 1)
         )
@@ -3312,7 +3533,7 @@
     (pin "1" (uuid ceb586b5-0ae9-452e-bdc4-07f8730ed939))
     (pin "2" (uuid dcab89f4-ee7a-428d-a387-cd7ca337bd8f))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C9") (unit 1)
         )
@@ -3338,7 +3559,7 @@
     (pin "1" (uuid 30780907-b678-4d33-94d1-fc130d5638a0))
     (pin "2" (uuid 8c8a9962-8bcd-4c7b-8ff1-a6e04982c7c8))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C11") (unit 1)
         )
@@ -3364,7 +3585,7 @@
     (pin "1" (uuid f9446bbe-b1cb-45cf-a29a-082cbc6f848c))
     (pin "2" (uuid d7aacbcf-fb19-4266-ad3d-af83ce372548))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C12") (unit 1)
         )
@@ -3390,7 +3611,7 @@
     (pin "1" (uuid 46015c43-8e0c-4685-8ff9-3fce189e484f))
     (pin "2" (uuid c8ed36a7-a3ba-4b83-936e-5e74eae33a4f))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C13") (unit 1)
         )
@@ -3416,7 +3637,7 @@
     (pin "1" (uuid 9b96c94c-419a-4b7f-bf21-103c4c003897))
     (pin "2" (uuid 22e249b0-1dd0-48d2-92e8-1f6e5962efdf))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C14") (unit 1)
         )
@@ -3442,7 +3663,7 @@
     (pin "1" (uuid 06870f1d-49fb-45ad-8021-0634be45b2b1))
     (pin "2" (uuid 2664d6e6-4feb-48ae-aaa7-83a7b06edd1c))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C15") (unit 1)
         )
@@ -3468,7 +3689,7 @@
     (pin "1" (uuid 97ae7c5c-82d6-4ef2-9c0e-e358781495db))
     (pin "2" (uuid e7ccd444-f96f-4821-ab86-eeba9305f02b))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C6") (unit 1)
         )
@@ -3494,7 +3715,7 @@
     (pin "1" (uuid c96cb1dd-e541-4da8-ada2-2fd12af7c8e6))
     (pin "2" (uuid e0f5b7bc-1980-46a6-a046-4818e835648d))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C7") (unit 1)
         )
@@ -3520,7 +3741,7 @@
     (pin "1" (uuid 55bb8743-534b-49f9-8cd8-f09cab68a3af))
     (pin "2" (uuid 9a9932fd-7620-4d42-8259-07a4d8d5f0d5))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C8") (unit 1)
         )
@@ -3546,7 +3767,7 @@
     (pin "1" (uuid e3e44468-a358-427f-972e-c2871f852b24))
     (pin "2" (uuid ea38a7ec-b8e8-42f2-a1c1-fe78d99b7a75))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C10") (unit 1)
         )
@@ -3571,7 +3792,7 @@
     )
     (pin "1" (uuid e2315ec7-61ca-4db1-a4ca-bf3d7db45622))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR023") (unit 1)
         )
@@ -3596,7 +3817,7 @@
     )
     (pin "1" (uuid 63185c31-ad5f-44ac-b17d-b1f042949a09))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR012") (unit 1)
         )
@@ -3621,7 +3842,7 @@
     )
     (pin "1" (uuid 1da08b61-e38a-47c0-a30b-9fc7d843ca7e))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR013") (unit 1)
         )
@@ -3646,7 +3867,7 @@
     )
     (pin "1" (uuid fa0c6f7e-6f83-493b-a53a-e4797f0e754b))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR018") (unit 1)
         )
@@ -3672,35 +3893,9 @@
     (pin "1" (uuid 78795c59-1794-4755-a7fc-1cff9cf0abcb))
     (pin "2" (uuid 6ade772c-e9c7-4f56-a765-a59c40dd9673))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "R5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Crystal") (at 62.865 215.9 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f0dd35c)
-    (property "Reference" "Y1" (at 66.1924 200.7616 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ABLS-12.000MHZ-B4-T" (at 51.435 191.77 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "RP2040_minimal:Crystal_SMD_HC49-US" (at 62.865 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 62.865 215.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9225e700-15e7-48c7-8eae-e4edfcbaf727))
-    (pin "2" (uuid 3c2900f9-68fe-408b-a565-a7f524c6980d))
-    (instances
-      (project "RP2040_minimal"
-        (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
-          (reference "Y1") (unit 1)
         )
       )
     )
@@ -3723,7 +3918,7 @@
     )
     (pin "1" (uuid 7fa97541-c0b9-496b-82b7-c81ceee0741c))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR024") (unit 1)
         )
@@ -3749,7 +3944,7 @@
     (pin "1" (uuid 974bb0f1-9a62-42b0-a0e7-041da55d450c))
     (pin "2" (uuid 8026306f-f935-40f3-a8c1-8986af0c0186))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C17") (unit 1)
         )
@@ -3774,7 +3969,7 @@
     )
     (pin "1" (uuid 3d791a93-1cfb-4db2-91b3-8fa12873fe3b))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR025") (unit 1)
         )
@@ -3800,7 +3995,7 @@
     (pin "1" (uuid 33d87882-7a44-4a5b-91ce-f93042217ef8))
     (pin "2" (uuid a6241e29-963a-4352-bddb-9691da39fece))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "J2") (unit 1)
         )
@@ -3825,7 +4020,7 @@
     )
     (pin "1" (uuid 4b55a790-19a8-4c1a-a7be-2cb73e2413f4))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR02") (unit 1)
         )
@@ -3833,7 +4028,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x18_Odd_Even") (at 375.92 142.24 0) (unit 1)
+  (symbol (lib_id "custom:Conn_02x18_Odd_Even_exc_pins15_17") (at 375.92 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f4b0bc9)
     (property "Reference" "JP2" (at 377.19 116.4082 0)
@@ -3854,9 +4049,7 @@
     (pin "12" (uuid 0ebe1bf8-94e1-4a99-b976-3001b99dc87f))
     (pin "13" (uuid a70a9cf8-3edb-4508-a4cd-62108162141f))
     (pin "14" (uuid 0886a30f-e41f-4ac8-9539-5aec9d57bb3c))
-    (pin "15" (uuid 59a89543-b4f1-43e5-8323-ad6b0255130b))
     (pin "16" (uuid 5904525e-cf10-41ca-ab9e-2230d5b553f7))
-    (pin "17" (uuid cd4fb11d-eeaf-4534-8bd2-5998f70f4a20))
     (pin "18" (uuid 4a49ca30-9033-41cf-b8ec-cbd21b87abc6))
     (pin "19" (uuid 363963ae-47b2-4b97-8277-658870d876c3))
     (pin "2" (uuid 124b604e-a35c-42da-90a3-9364e177b789))
@@ -3885,7 +4078,7 @@
     (pin "8" (uuid c5959290-3ccb-487d-9b2f-63570714cf66))
     (pin "9" (uuid 7d9d3162-e5d2-4b99-b060-3cd13b2a17e7))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "JP2") (unit 1)
         )
@@ -3945,35 +4138,9 @@
     (pin "8" (uuid 06e91174-d5c7-43c1-a12c-cafdfbc8db68))
     (pin "9" (uuid 003de73c-74f1-4ae6-8c66-1f80d91ba995))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "JP1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 272.415 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 04c7939e-616f-4d49-88b6-3f0e22279909)
-    (property "Reference" "R6" (at 269.24 26.035 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (at 269.4686 29.21 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 270.637 29.21 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 272.415 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 595f32e8-755a-486e-b6f5-66e5c6b14ace))
-    (pin "2" (uuid 63cb9680-4376-4e88-a661-7983f4eeafcc))
-    (instances
-      (project "RP2040_minimal"
-        (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
-          (reference "R6") (unit 1)
         )
       )
     )
@@ -3996,7 +4163,7 @@
     )
     (pin "1" (uuid a943ce8f-55e6-415f-96f9-f13b69ab2d3e))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR09") (unit 1)
         )
@@ -4021,7 +4188,7 @@
     )
     (pin "1" (uuid 7debd65c-cf18-42c3-8a00-a2f1f3f48369))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR05") (unit 1)
         )
@@ -4051,7 +4218,7 @@
     (pin "5" (uuid 7738d86c-a8ec-41c8-ab54-bb1aa79728d4))
     (pin "6" (uuid d51d803b-c19a-4fda-acab-0c672c78555c))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "J4") (unit 1)
         )
@@ -4076,7 +4243,7 @@
     )
     (pin "1" (uuid f9b4f577-bc38-427f-b411-bc5fa6165ab5))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR010") (unit 1)
         )
@@ -4101,7 +4268,7 @@
     )
     (pin "1" (uuid a40be260-0e50-451b-8272-a689d8bbeb99))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR03") (unit 1)
         )
@@ -4128,7 +4295,7 @@
     (pin "2" (uuid 80ce6ecd-d4cf-488e-8e19-0f462b5f31f6))
     (pin "3" (uuid 0a4f66be-b6c3-45fd-a240-b6cb6928abcd))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "J3") (unit 1)
         )
@@ -4156,7 +4323,7 @@
     (pin "3" (uuid 3e99eb4c-c4be-4e2b-bbc2-ea8da54a3523))
     (pin "4" (uuid 2297d80a-124c-48e0-94b5-12d4e95336f2))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "J1") (unit 1)
         )
@@ -4181,7 +4348,7 @@
     )
     (pin "1" (uuid 145ed35d-b790-4647-92e6-dc3842c264ac))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "#PWR01") (unit 1)
         )
@@ -4207,7 +4374,7 @@
     (pin "1" (uuid 3bb896ac-683d-406d-bdff-20f2801b7dea))
     (pin "2" (uuid 388c7a24-98b3-4e25-b134-f19a514b57a3))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C1") (unit 1)
         )
@@ -4233,61 +4400,9 @@
     (pin "1" (uuid 7187c689-8422-4bc1-8eea-a2197fa86174))
     (pin "2" (uuid f2184506-ce17-46a6-bd64-0a137bd5b922))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 279.4 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a44bca1d-d462-4227-bac4-f27bd0ea4ff0)
-    (property "Reference" "R7" (at 276.225 26.035 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 276.4536 29.21 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 277.622 29.21 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 279.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a873f921-660e-4078-9ecd-fe16d92ae174))
-    (pin "2" (uuid 10666637-8457-47d3-903c-c8aa3c76c92c))
-    (instances
-      (project "RP2040_minimal"
-        (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
-          (reference "R7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 241.935 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a7118549-825b-4c35-a9d4-395047b9b7f4)
-    (property "Reference" "C16" (at 244.856 28.0416 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "27p" (at 244.856 30.353 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 242.9002 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 241.935 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 894d0bc9-9c72-453e-a3b9-b4bfba1f588a))
-    (pin "2" (uuid 4fd5151a-82f7-4e71-8817-50f76db079f4))
-    (instances
-      (project "RP2040_minimal"
-        (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
-          (reference "C16") (unit 1)
         )
       )
     )
@@ -4311,7 +4426,7 @@
     (pin "1" (uuid 039bff20-2697-4b25-b8fe-69a1eaf02ce2))
     (pin "2" (uuid 38acb786-7497-435e-97e1-883fe1cc92a8))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "C4") (unit 1)
         )
@@ -4351,35 +4466,9 @@
     (pin "3" (uuid baa137fb-ae79-4152-b496-219f50a7d3d3))
     (pin "4" (uuid 4c346b07-e4e0-4106-994b-f76524d5a810))
     (instances
-      (project "RP2040_minimal"
+      (project "cetus-RP2040-CPU"
         (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
           (reference "Y2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 249.555 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fb408e0a-8501-4efe-b127-5fd956cbad98)
-    (property "Reference" "C18" (at 252.476 28.0416 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "27p" (at 252.476 30.353 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 250.5202 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 249.555 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fd796f79-0d1c-48c1-bffe-e3786cdaf8c8))
-    (pin "2" (uuid 02270295-d556-4ef8-9eeb-fbff90e2c446))
-    (instances
-      (project "RP2040_minimal"
-        (path "/84e5506c-143e-495f-9aa4-d3a71622f213"
-          (reference "C18") (unit 1)
         )
       )
     )

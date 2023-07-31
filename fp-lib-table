@@ -3,4 +3,5 @@
   (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2040_minimal.pretty")(options "")(descr ""))
   (lib (name "X322516MLB4SI")(type "KiCad")(uri "${KIPRJMOD}/X322516MLB4SI")(options "")(descr ""))
   (lib (name "Panelization.pretty-master")(type "KiCad")(uri "${KIPRJMOD}/Panelization.pretty-master")(options "")(descr ""))
+  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.pretty")(options "")(descr ""))
 )

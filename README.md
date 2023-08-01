@@ -1,1 +1,1 @@
-![3D board view](images/rp2040_cetus_3dview.jpg)
+![3D board view](images/cetus-RP2040-CPU_rev2_3dview.jpg)

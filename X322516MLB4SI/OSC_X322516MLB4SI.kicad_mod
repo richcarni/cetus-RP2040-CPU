@@ -33,4 +33,9 @@
   (pad "2" smd rect (at -0.85 1.1) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fff46ec6-228e-4455-aa06-38cf116a9e72))
   (pad "3" smd rect (at 0.85 1.1) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8bb2c829-f064-4694-be9b-dfac235fa24a))
   (pad "4" smd rect (at 0.85 -1.1) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3998703e-28a4-4450-8e40-b58504a2fad3))
+  (model ":KICAD7_3DMODEL_DIR:Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
